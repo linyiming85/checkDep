@@ -31,7 +31,8 @@ public class MyGitLab {
         }
         List<GitlabProject> projectList=gitlabAPI.getProjects();
         for (GitlabProject project:projectList){
-            System.out.println("project:"+project.getName());
+            System.out.println("project:"+project.getHttpUrl());
+
         }
 
     }
