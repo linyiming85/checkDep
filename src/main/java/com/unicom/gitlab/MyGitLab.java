@@ -12,6 +12,7 @@ import java.util.List;
  * Created by linym on 2016/11/20.
  */
 public class MyGitLab {
+    System.out.println("test");
     private static String host="http://172.16.54.135:10080";
     private static String username="linym";
     private static String password="linym1985";
